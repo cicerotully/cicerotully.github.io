@@ -274,8 +274,25 @@ body {
   }
 }
 @media only screen and (max-width: 480px) {
+  .main {
+    width: 95%;
+  }
+  .blog-main {
+    width: 95%;
+  }
+  .header {
+    width: 97%;
+    height: 20vh;
+  }
+  .dropdown-content {
+    top: 104px;
+  }
+  #navbar {
+    width: 80%;
+    float: right;
+  }
   #navbar p {
-    font-size: 5.5vw;
+    font-size: 5vw;
   }
   #navbar a {
     font-size: 5vw;
