@@ -3,7 +3,8 @@
   text-decoration:none;
 }
 body {
-  background-image: url("../img/masca11.png")/*, url("../img/cicero.jpeg*/;
+  background-color: #242582;
+/*  background-image: url("../img/masca11.png")/*, url("../img/cicero.jpeg*/;
 /*  background-blend-mode:darken;
   background-repeat: repeat, no-repeat;
   background-position: top left, 67vw 15vh;
