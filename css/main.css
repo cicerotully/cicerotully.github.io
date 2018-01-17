@@ -273,6 +273,14 @@ body {
     font-size: 4.7vw;
   }
 }
+@media only screen and (max-width: 400px) {
+  #navbar p {
+    font-size: 5.5vw;
+  }
+  #navbar a {
+    font-size: 5vw;
+  }
+}
 .content-lg {
   font-family: 'Merriweather', serif;
   margin: 30px auto;
