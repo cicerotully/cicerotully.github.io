@@ -4,7 +4,7 @@
 }
 body {
   background-color: #242582;
-/*  background-image: url("../img/masca11.png")/*, url("../img/cicero.jpeg*/;
+ background-image: url("../img/masca1.png")/*, url("../img/cicero.jpeg*/;
 /*  background-blend-mode:darken;
   background-repeat: repeat, no-repeat;
   background-position: top left, 67vw 15vh;
@@ -239,13 +239,13 @@ body {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
   .lead-head {
-    font-size: 5.4vw;
+    font-size: 7.4vw;
     overflow:hidden;
   }
   .lead-par {
-    font-size: 3.6vw;
+    font-size: 5.6vw;
   }
   .header {
     height: 3.7em;
@@ -264,13 +264,13 @@ body {
     font-size: 2.8vw;
   }
   #navbar a {
-    font-size: 2.4vw;
+    font-size: 3vw;
   }
   #navbar p {
-    font-size: 3.4vw;
+    font-size: 3.8vw;
   }
   #button {
-    font-size: 3.4vw;
+    font-size: 4.7vw;
   }
 }
 .content-lg {
