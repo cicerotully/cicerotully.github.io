@@ -20,16 +20,19 @@ body {
   background-size: 12%;;
 }
 .header {
+  display: flex;
+  justify-content: center;
   border-style: solid;
+  border-width: 1.2px;
   border-color: #a9e5bb;
   color: White;
   border-radius: 5px;
   margin: auto;
   margin-bottom: 10px;
-  overflow: hidden;
+  overflow:hidden;
   background-color:  #ba1f33;
   height: 8.5vh;
-  width: 77%;
+  width:90%;
 }
 .main {
   padding-top: 28px;
@@ -136,6 +139,7 @@ body {
   min-width: 32px;
 }
 
+
 .dropdown p {
   float: left;
    font-size: 1.4em;
@@ -151,16 +155,17 @@ body {
    cursor: pointer;
    z-index: 4;
 }
+
 .dropdown-content {
     display: none;
     position: absolute;
-    top: 10.5vh;
+    overflow: visible;
     background-color: #ba1f33;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     border-radius: 5px;
     z-index: 10;
 }
-.dropdown-content a {
+.dropdown-content a, .horizontal-content a, .dropdown-content p {
   float: none;
   position: relative;
   font-family: 'Ubuntu Condensed', sans-serif;
@@ -169,9 +174,12 @@ body {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   text-decoration: none;
   display: block;
-
 }
+
 .dropdown:hover .dropdown-content {
+    display: block;
+}
+.horizontal:hover .horizontal-content {
     display: block;
 }
 .nav-bar a:hover, .dropdown:hover {
@@ -234,13 +242,21 @@ body {
 /* Media Queries */
 
 @media only screen and (max-width: 1250px) {
+  .header {
+    justify-content: flex-end;
+  }
   .nav-bar a:not(.nav-excuse), .nav-bar div:not(.icon) {
     display: none;
   }
   .icon {
-    display: inline-block;
+    display: inline;
     float: right;
+    background-color: #ba1f33;
   }
+  .nav-bar :not(.nav-excuse) {
+    background-color: #ba1f33 !important;
+  }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -279,12 +295,6 @@ body {
   }
   #button {
     font-size: 4.7vw;
-  }
-  @media screen and (orientation: landscape) {
-    .header {
-      min-height: 5vh; 
-    }
-
   }
 }
 @media only screen and (max-width: 480px) {
