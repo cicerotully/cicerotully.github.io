@@ -29,7 +29,7 @@ body {
   overflow: hidden;
   background-color:  #ba1f33;
   height: 8.5vh;
-  width: 80%;
+  width: 77%;
 }
 .main {
   padding-top: 28px;
@@ -228,6 +228,7 @@ body {
   cursor:pointer;
 }
 
+/* Media Queries */
 
 @media only screen and (max-width: 1250px) {
   .nav-bar a:not(.nav-excuse), .nav-bar div:not(.icon) {
@@ -247,6 +248,9 @@ body {
   .lead-par {
     font-size: 5.6vw;
   }
+  .main {
+    margin-top: 50px;
+  }
 
   .main h1 {
     font-size: 3.8vw;
@@ -254,6 +258,9 @@ body {
   .main p, a, li {
     font-size: 2.8vw;
 
+  }
+  .blog-main {
+    margin-top: 50px;
   }
   .blog-main h1, h2 {
     font-size: 3.8vw;
@@ -280,8 +287,8 @@ body {
   }
 
   #navbar {
-    width: 80%;
-    float: right;
+    width: 100%;
+    margin: auto;
   }
   #navbar p {
     font-size: 5vw;
