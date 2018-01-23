@@ -29,7 +29,6 @@ body {
   color: White;
   border-radius: 5px;
   margin: auto;
-  padding-bottom: 10px;
   overflow:hidden;
   background-color:  #ba1f33;
   height: 8.5vh;
@@ -40,7 +39,7 @@ body {
   padding-bottom: 28px;
   color: #061118;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 12.4vh;
   background-color: #91e5f6;
   width: 70%;
   border-radius: 5px;
@@ -125,7 +124,7 @@ body {
    color: White;
    text-align: center;
    min-width: 160px;
-   height: 5vh;
+   height: 100%;
    padding: 14px 16px;
    border-radius: 5px
    text-decoration: none;
@@ -176,14 +175,15 @@ body {
   text-decoration: none;
   display: block;
 }
-/*
-.dropdown:active .dropdown-content {
+
+.dropdown:hover .dropdown-content {
     display: block;
 }
-.horizontal:active .horizontal-content {
+
+.horizontal:hover .horizontal-content {
     display: block;
 }
-*/
+
 .nav-bar a:hover, .dropdown:hover {
   background-color: #100b00;
 }
@@ -193,7 +193,7 @@ body {
 }
 #lead {
   position: relative;
-  top: 50px;
+  top: 12.4vh;
   height: 40%;
   width: 80%;
   margin: auto;
@@ -205,7 +205,6 @@ body {
   opacity: 0.90;
   border-radius: 10px;
   position: relative;
-  top: 50px;
   width: 75%;
   padding: 16px 24px;
   margin: auto;
@@ -216,7 +215,7 @@ body {
 
 .lead-par {
   position: relative;
-  top: 50px;
+  top: 12.4vh;
   font-size: 3.8vw;
   font-stretch:expanded;
   text-align:center;
@@ -226,8 +225,6 @@ body {
 
 .button-wrapper {
   position: relative;
-  padding: 20px 20px;
-  top: 5px;
   text-align: center;
 }
 #button {
@@ -244,7 +241,7 @@ body {
   cursor:pointer;
 }
 
-/* Media Queries */
+/* Animations and Media Queries */
 
 @media only screen and (max-width: 1250px) {
   .header {
@@ -271,9 +268,6 @@ body {
   }
   .lead-par {
     font-size: 5.6vw;
-  }
-  .main {
-    margin-top: 50px;
   }
 
   .main h1 {
@@ -321,6 +315,23 @@ body {
     font-size: 5vw;
   }
 }
+
+@media only screen and (orientation: landscape) {
+  .header {
+    height: 45px;
+  }
+  .dropdown-content {
+    top: 50px;
+  }
+
+}
+
+/* Animation ?? */
+@keyframes animatetop {
+    from {top: 0px; opacity: 0}
+    to {top: 100px; opacity: 1}
+}
+
 .content-lg {
   font-family: 'Merriweather', serif;
   margin: 30px auto;
@@ -388,11 +399,6 @@ body {
   animation-duration: 0.4s;
 }
 
-/* Animation ?? */
-@keyframes animatetop {
-    from {top: 0px; opacity: 0}
-    to {top: 100px; opacity: 1}
-}
 /* Close button */
 .close {
   color: #061118;
