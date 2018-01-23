@@ -2,4 +2,9 @@ Issues:
 
 1. The navigation bar will not open on iPhone devices due to the 'hover' event not tracking.
 2. The navigation bar is not sufficiently compact for mobile devices.
-3. Make navigation modal.
+3. Certain ASCII icons not supported on some laptops (tested on Sony "vpcf12afm")
+
+
+Todo:
+
+1. Suggested that main site navigation takes place using modal instead of navigation bar on mobile devices.
