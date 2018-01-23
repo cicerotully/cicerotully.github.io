@@ -298,10 +298,13 @@ body {
 }
 @media only screen and (max-width: 480px) {
   .main {
-    width: 95%;
+    width: 90%;
   }
   .blog-main {
-    width: 95%;
+    width: 90%;
+  }
+  #lead {
+    width: 90%;
   }
 
   #navbar {
