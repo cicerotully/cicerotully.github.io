@@ -1,2 +1,3 @@
--- fix i-phone issue
+-- fix i-phone nav bar issue
 -- re-write nav bar to make more mobile friendly
+-- tidy up css file
