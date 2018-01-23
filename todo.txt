@@ -1,3 +1,4 @@
--- fix i-phone nav bar issue
--- re-write nav bar to make more mobile friendly
--- tidy up css file
+Issues:
+
+1. The navigation bar will not open on iPhone devices due to the 'hover' event not tracking.
+2. The navigation bar is not sufficiently compact for mobile devices. 

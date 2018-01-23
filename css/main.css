@@ -125,7 +125,7 @@ body {
    text-align: center;
    min-width: 160px;
    height: 100%;
-   padding: 14px 16px;
+   padding: 14px 1px;
    border-radius: 5px
    text-decoration: none;
 }
@@ -145,7 +145,7 @@ body {
    font-size: 1.4em;
    font-family: 'Bungee', sans-serif;
    text-align: center;
-   padding: 14px 16px;
+   padding: 14px 1px;
    position: relative;
    min-width: 170px;
    height: 25px;
@@ -243,7 +243,7 @@ body {
 
 /* Animations and Media Queries */
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 938px) {
   .header {
     justify-content: flex-end;
   }
@@ -251,7 +251,7 @@ body {
     display: none;
   }
   .icon {
-    display: inline;
+    display: block;
     float: right;
     background-color: #ba1f33;
   }
