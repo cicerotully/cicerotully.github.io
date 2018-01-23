@@ -1,0 +1,2 @@
+-- fix i-phone issue
+-- re-write nav bar to make more mobile friendly
