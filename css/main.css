@@ -321,17 +321,18 @@ body {
 
 @media only screen and (orientation: landscape) {
   .header {
-    min-height: 2.4vh;
+    height: 4em;
   }
   .nav-bar a {
-    font-size: 3vh;
+    font-size: 1.2em;
   }
   .dropdown p {
-    font-size: 3vh;
-    top: -3.1vh;
+    font-size: 1.2em;
+    top: -1em;
+
   }
   .dropdown-content {
-    top: 10.1vh;
+    top: 4.2em;
   }
 
 }
