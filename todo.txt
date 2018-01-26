@@ -8,3 +8,19 @@ Issues:
 Todo:
 
 1. Suggested that main site navigation takes place using modal instead of navigation bar on mobile devices.
+
+
+Memo's Critique:
+
+- Maybe use a white background
+
+- Contrast font sizes on title page to make main content stand out
+
+- Use less fonts (1 or 2 max)
+
+- Make Buttons & other CTAs clear
+
+- Have a simpler Logo 
+
+- Perhaps use an image instead of background colours
+ 
