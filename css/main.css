@@ -6,11 +6,14 @@ body {
 background-color: #242582;
 background-image: url("../img/intersection.png")/*, url("../img/CiceroTullyTrans.png*/;
 background-repeat: repeat;
+padding-bottom: 100px;
 /*  background-blend-mode:darken;
   background-repeat: repeat, no-repeat;
   background-position: top left, 67vw 15vh;
   background-size: auto, 25%;
 */}
+
+
 
 /* Class to show logo on content*/
 .background {
