@@ -107,7 +107,7 @@ background-repeat: repeat;
   background-color: /*#936B60*/#1D2731;
   color: #ffffff;
   font-family: "Bellefair", serif;
-  font-size: 28px;
+  font-size: 2.2em;
   font-weight: 900;
   font-variant-caps: small-caps;
   list-style: none;
@@ -317,12 +317,7 @@ background-repeat: repeat;
   .blog-main p, a, li {
     font-size: 2.8vw;
   }
-  #navbar a {
-    font-size: 3vw;
-  }
-  #navbar p {
-    font-size: 3.8vw;
-  }
+
   #button {
     font-size: 4.7vw;
   }
