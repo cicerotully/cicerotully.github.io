@@ -3,8 +3,9 @@
   text-decoration:none;
 }
 body {
-  background-color: #242582;
- background-image: url("../img/masca1.png")/*, url("../img/CiceroTullyTrans.png*/;
+background-color: #242582;
+background-image: url("../img/intersection.png")/*, url("../img/CiceroTullyTrans.png*/;
+background-repeat: repeat;
 /*  background-blend-mode:darken;
   background-repeat: repeat, no-repeat;
   background-position: top left, 67vw 15vh;
@@ -100,6 +101,36 @@ body {
 .menu-list {
   display: inline-grid;
 }
+/* Navigation bar - same on every page */
+.nav {
+  width: 100%;
+  background-color: /*#936B60*/#1D2731;
+  color: #ffffff;
+  font-family: "Bellefair", serif;
+  font-size: 28px;
+  font-weight: 900;
+  font-variant-caps: small-caps;
+  list-style: none;
+  text-align: center;
+  padding: 15px 0 12px 0;
+}
+.active-page {
+  background-color: #000;
+}
+.nav > li {
+  display: inline-block;
+  padding-right: 50px;
+}
+
+.nav > li > a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav > li > a:hover {
+  color: /*#c1c1c1*/ #C8F3F3;
+}
+
 
 .nav-bar-img {
   object-fit: contain;
@@ -197,7 +228,7 @@ body {
   height: 40%;
   width: 80%;
   margin: auto;
-  font-family: 'Joti One', regular;
+  font-family: 'Merriweather', serif;
 }
 
 .lead-head {
@@ -231,7 +262,7 @@ body {
   margin: auto;
   font-size: 2.6vw;
   font-family: 'onclick Condensed', sans-serif;
-  background-color: gray/*#a9e5bb*/;
+  background-color: orange/*#a9e5bb*/;
   color: black;
   position: relative;
   top: 70px;
@@ -367,14 +398,14 @@ body {
 /* Modal box */
 
 .modal-header {
-  font-family: 'Joti One', sans-serif;
+  font-family: 'Merriweather', serif;
   padding: 2px 16px;
   background-color: #989898;
   color: #061118;
 }
 
 .modal-body {
-  font-family: 'Ubuntu Condensed', sans-serif;
+  font-family: 'Merriweather', serif;
   overflow: auto;
   max-height: 60%;
   padding: 2px 16px;
@@ -386,7 +417,7 @@ body {
 }
 
 .modal-footer {
-  font-family: 'Ubuntu Condensed', sans-serif;
+  font-family: 'Merriweather', sans-serif;
   padding: 2px 16px;
   background-color: #989898;
   color: #061118;
