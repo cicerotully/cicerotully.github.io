@@ -11,32 +11,32 @@ Developer: Html | CSS | Javascript / Google Apps Script | Python | C.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 WORK EXPERIENCE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[2018 - ]
-AdWords Scripts Consultant
+[2018 - Present]
+ScriptMaster / Automation Specialist
 @ Fountain Partnership (March, 2018 - Present)
 https://www.fountainpartnership.co.uk/
 
-  ~
-  ~
-  ~
+  ~ As automation specialist at Fountain, I am responsible for creating and managing automations across
+  a range of sepearate advertisement platforms. The majority of my job involves writing Google Apps 
+  Scripts automations for a range of medium to large clients. 
 
 [2017 - 2018]
 Digital Marketing Support Assistant
 @ Fountain Partnership (March, 2017 - March 2018):
 https://www.fountainpartnership.co.uk/
 
-  ~
-  ~
-  ~
+  ~ As an entry into the Digital Marketing Sector, I was hired to a role that supported the work of 
+  experienced Account Managers in the business. Duties included setting up Google AdWords, Facebook and 
+  Bing accounts, as well as account optimisation tasks.
 
 [2015 - 2016]
 Research Associate Intern
 @ The Norwich Society (September - December, 2016):
 https://www.thenorwichsociety.org.uk/
 
-  ~
-  ~
-  ~
+  ~ At the Norwich Society I was responsible for conducting a research project that looked into
+  what pushing and pulling factors contributed to the decisions people made about whether they would
+  accept jobs in Norwich or Not.
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -45,10 +45,8 @@ SUMMARY OF EDUCATION AND QUALIFICATIONS
 [2015 - 2016]
 Masters by Research, Philosophy
 @ The University of East Anglia
-Grade Achieved: First.
-Thesis: "Memory and Personal Identity"
-  *
-
+Grade Achieved: Distinction.
+Thesis Title: "Memory and Personal Identity"
 . . .
 
 [2012 - 2015]
@@ -56,13 +54,11 @@ Bachelor of Arts, Politics and Philosophy
 @ The University of East Anglia
 Grade Achieved: First.
 Dissertation: "Hannah Arendt"
-  *
-
 . . .
 
 [2010 - 2012]
-A-levels, English Literature, Music, History
+A-levels, English Literature, Music, History, General Studies
 @ Hampton College
-Grades Achieved: A*, B, B
+Grades Achieved: A*, B, B, C
 
 . . .
