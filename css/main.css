@@ -306,6 +306,14 @@ padding-bottom: 100px;
 
   .main h1 {
     font-size: 3.8vw;
+    font-weight: bold;
+  }
+  .main h2 {
+    font-size: 3.6vw;
+  }
+  .main h3 {
+    font-size: 3.4vw;
+    font-style: italic;
   }
   .main p, a, li {
     font-size: 2.8vw;
@@ -314,8 +322,17 @@ padding-bottom: 100px;
   .blog-main {
     margin-top: 50px;
   }
-  .blog-main h1, h2 {
+  .blog-main h1 {
     font-size: 3.8vw;
+    font-weight: bold;
+  }
+  .blog-main h2
+  {
+    font-size: 3.6vw;
+  }
+  .blog-main h3 {
+    font-size: 3.4vw;
+    font-style: italic;
   }
   .blog-main p, a, li {
     font-size: 2.8vw;
@@ -374,10 +391,19 @@ padding-bottom: 100px;
   z-index: 4;
 }
 .content-lg h1 {
-
+  font-size: 3.4vw;
+  font-weight: bold;
 }
-.content-lg p {
+.content-lg h2 {
+  font-size: 2.6vw;
+}
+.content-lg h3 {
+  font-size: 2.2vw;
+  font-style: italic;
+}
 
+.content-lg p, a, li {
+  font-size: 1.7vw;
 }
 
 .video-container {
