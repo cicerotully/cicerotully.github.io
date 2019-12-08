@@ -260,7 +260,7 @@ padding-bottom: 100px;
   position: relative;
   text-align: center;
 }
-#button {
+#modalbutton {
   margin: auto;
   font-size: 2.6vw;
   font-family: 'onclick Condensed', sans-serif;
@@ -274,6 +274,19 @@ padding-bottom: 100px;
   cursor:pointer;
 }
 
+#phdbutton {
+  margin: auto;
+  font-size: 2.6vw;
+  font-family: 'onclick Condensed', sans-serif;
+  background-color: #502F4C/*#a9e5bb*/;
+  color: black;
+  position: relative;
+  top: 70px;
+  border-radius: 5px;
+  border: 1px solid black/*#888*/;
+  box-shadow: 5px 10px 16px 20px rgba(3,2,2,0.2);
+  cursor:pointer;
+}
 /* Animations and Media Queries */
 
 @media only screen and (max-width: 938px) {
