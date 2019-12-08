@@ -1,6 +1,6 @@
 var modal = document.getElementById("infoModal");
 var modalContent = document.getElementById("modalContent");
-var btn = document.getElementById("button");
+var btn = document.getElementById("modalbutton");
 var span = document.getElementsByClassName("close")[0];
 
 btn.onclick = function() {
